@@ -253,7 +253,6 @@
 		AA8840B518F2AEA300F1E1BC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8840B418F2AEA300F1E1BC /* GameKit.framework */; };
 		AA8840BE18F2AEA300F1E1BC /* testLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8840BD18F2AEA300F1E1BC /* testLayer.m */; };
 		AA8840C118F2AEA300F1E1BC /* testScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8840C018F2AEA300F1E1BC /* testScene.m */; };
-		AA8840C418F2AEA300F1E1BC /* hello-world.pod in Resources */ = {isa = PBXBuildFile; fileRef = AA8840C318F2AEA300F1E1BC /* hello-world.pod */; };
 		AA8840C818F2AEA300F1E1BC /* testAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8840C718F2AEA300F1E1BC /* testAppDelegate.m */; };
 		AA8840CB18F2AEA300F1E1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8840CA18F2AEA300F1E1BC /* main.m */; };
 		AA8840CF18F2AEA300F1E1BC /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8840CE18F2AEA300F1E1BC /* Icon-29.png */; };
@@ -324,6 +323,9 @@
 		AA88415718F2AEA400F1E1BC /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA88415618F2AEA400F1E1BC /* fps_images-hd.png */; };
 		AA88415918F2AEA400F1E1BC /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = AA88415818F2AEA400F1E1BC /* fps_images-ipadhd.png */; };
 		AA88415C18F2AEA400F1E1BC /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = AA88415B18F2AEA400F1E1BC /* configuration.json */; };
+		AAB4B5E618F5967000B59FA1 /* ball.pod in Resources */ = {isa = PBXBuildFile; fileRef = AAB4B5E518F5967000B59FA1 /* ball.pod */; };
+		AAB4B5E818F597D100B59FA1 /* ball.blend in Resources */ = {isa = PBXBuildFile; fileRef = AAB4B5E718F597D100B59FA1 /* ball.blend */; };
+		AAB4B5EA18F597D700B59FA1 /* ball.dae in Resources */ = {isa = PBXBuildFile; fileRef = AAB4B5E918F597D700B59FA1 /* ball.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -882,7 +884,6 @@
 		AA8840BD18F2AEA300F1E1BC /* testLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = testLayer.m; path = Classes/testLayer.m; sourceTree = "<group>"; };
 		AA8840BF18F2AEA300F1E1BC /* testScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testScene.h; path = Classes/testScene.h; sourceTree = "<group>"; };
 		AA8840C018F2AEA300F1E1BC /* testScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = testScene.m; path = Classes/testScene.m; sourceTree = "<group>"; };
-		AA8840C318F2AEA300F1E1BC /* hello-world.pod */ = {isa = PBXFileReference; lastKnownFileType = file; name = "hello-world.pod"; path = "Resources/hello-world.pod"; sourceTree = "<group>"; };
 		AA8840C518F2AEA300F1E1BC /* README! */ = {isa = PBXFileReference; lastKnownFileType = text; path = "README!"; sourceTree = "<group>"; };
 		AA8840C618F2AEA300F1E1BC /* testAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = testAppDelegate.h; path = Classes/testAppDelegate.h; sourceTree = "<group>"; };
 		AA8840C718F2AEA300F1E1BC /* testAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = testAppDelegate.m; path = Classes/testAppDelegate.m; sourceTree = "<group>"; };
@@ -956,6 +957,9 @@
 		AA88415618F2AEA400F1E1BC /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
 		AA88415818F2AEA400F1E1BC /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
 		AA88415B18F2AEA400F1E1BC /* configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = configuration.json; path = test.approj/configuration.json; sourceTree = SOURCE_ROOT; };
+		AAB4B5E518F5967000B59FA1 /* ball.pod */ = {isa = PBXFileReference; lastKnownFileType = file; path = ball.pod; sourceTree = "<group>"; };
+		AAB4B5E718F597D100B59FA1 /* ball.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = ball.blend; sourceTree = "<group>"; };
+		AAB4B5E918F597D700B59FA1 /* ball.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = ball.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1923,7 +1927,9 @@
 		AA8840C218F2AEA300F1E1BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AA8840C318F2AEA300F1E1BC /* hello-world.pod */,
+				AAB4B5E518F5967000B59FA1 /* ball.pod */,
+				AAB4B5E718F597D100B59FA1 /* ball.blend */,
+				AAB4B5E918F597D700B59FA1 /* ball.dae */,
 				AA8840CC18F2AEA300F1E1BC /* Info.plist */,
 				AA88415418F2AEA400F1E1BC /* fps_images.png */,
 				AA88415618F2AEA400F1E1BC /* fps_images-hd.png */,
@@ -2175,6 +2181,7 @@
 				AA8840DF18F2AEA300F1E1BC /* Icon-60.png in Resources */,
 				AA88414D18F2AEA400F1E1BC /* CC3PointSprites.vsh in Resources */,
 				AA88414418F2AEA400F1E1BC /* CC3LibVertexPositionNoBones.vsh in Resources */,
+				AAB4B5EA18F597D700B59FA1 /* ball.dae in Resources */,
 				AA88412918F2AEA400F1E1BC /* CC3SingleTextureAlphaTest.fsh in Resources */,
 				AA88411318F2AEA400F1E1BC /* CC3ClipSpaceNoTexture.fsh in Resources */,
 				AA88411F18F2AEA400F1E1BC /* CC3NoTextureReflectAlphaTest.fsh in Resources */,
@@ -2204,7 +2211,6 @@
 				AA8840EE18F2AEA300F1E1BC /* Default-568h@2x.png in Resources */,
 				AA8840FA18F2AEA400F1E1BC /* CC3LibEnvironmentReflection.fsh in Resources */,
 				AA88410F18F2AEA400F1E1BC /* CC3BumpMapTangentSpace.fsh in Resources */,
-				AA8840C418F2AEA300F1E1BC /* hello-world.pod in Resources */,
 				AA88410D18F2AEA400F1E1BC /* CC3BumpMapObjectSpaceAlphaTest.fsh in Resources */,
 				AA88413418F2AEA400F1E1BC /* CC3LibConstants.vsh in Resources */,
 				AA88415518F2AEA400F1E1BC /* fps_images.png in Resources */,
@@ -2216,6 +2222,7 @@
 				AA88411118F2AEA400F1E1BC /* CC3BumpMapTangentSpaceAlphaTest.fsh in Resources */,
 				AA88413218F2AEA400F1E1BC /* CC3LibCameraPosition.vsh in Resources */,
 				AA8840CF18F2AEA300F1E1BC /* Icon-29.png in Resources */,
+				AAB4B5E618F5967000B59FA1 /* ball.pod in Resources */,
 				AA8840D518F2AEA300F1E1BC /* Icon-40@2x.png in Resources */,
 				AA88413618F2AEA400F1E1BC /* CC3LibDefaultPrecision.vsh in Resources */,
 				AA88414818F2AEA400F1E1BC /* CC3LibVertexPositionRigidBones.vsh in Resources */,
@@ -2233,6 +2240,7 @@
 				AA88412D18F2AEA400F1E1BC /* CC3SingleTextureReflectAlphaTest.fsh in Resources */,
 				AA88410018F2AEA400F1E1BC /* CC3LibSingleSidedFragmentColor.fsh in Resources */,
 				AA88413A18F2AEA400F1E1BC /* CC3LibEnvironmentReflection.vsh in Resources */,
+				AAB4B5E818F597D100B59FA1 /* ball.blend in Resources */,
 				AA88410818F2AEA400F1E1BC /* CC3LibTexturedPointSprite.fsh in Resources */,
 				AA88410618F2AEA400F1E1BC /* CC3LibTexturableBumpMapTangentSpace.fsh in Resources */,
 				AA88414218F2AEA400F1E1BC /* CC3LibVertexPositionBones.vsh in Resources */,
@@ -2751,6 +2759,7 @@
 				AA88416118F2AEA400F1E1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA88416218F2AEA400F1E1BC /* Build configuration list for PBXNativeTarget "cocos3d" */ = {
 			isa = XCConfigurationList;
@@ -2759,6 +2768,7 @@
 				AA88416418F2AEA400F1E1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA88416518F2AEA400F1E1BC /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
@@ -2767,6 +2777,7 @@
 				AA88416718F2AEA400F1E1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

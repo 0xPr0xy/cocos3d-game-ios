@@ -62,7 +62,8 @@
 	// nodes in the resource, remove unwanted nodes from the resource (eg- extra cameras),
 	// or extract only specific nodes from the resource to add them directly to the scene,
 	// instead of adding the entire contents.
-	CC3ResourceNode* rezNode = [CC3PODResourceNode nodeFromFile: @"hello-world.pod"];
+	CC3ResourceNode* rezNode = [CC3PODResourceNode nodeFromFile: @"ball.pod"];
+	[rezNode setName:@"Ball"];
 	[self addChild: rezNode];
 	
 	// Or, if you don't need to modify the resource node at all before adding its content,
@@ -153,15 +154,17 @@
 	// using a couple of actions...
 	
 	// Fetch the 'hello, world' object that was loaded from the POD file and start it rotating
-	CC3MeshNode* helloTxt = (CC3MeshNode*)[self getNodeNamed: @"Hello"];
+	CC3MeshNode* ball = (CC3MeshNode*)[self getNodeNamed: @"Ball"];
 	CCActionInterval* partialRot = [CC3RotateBy actionWithDuration: 1.0
 														  rotateBy: cc3v(0.0, 30.0, 0.0)];
-	[helloTxt runAction: [CCRepeatForever actionWithAction: partialRot]];
+	[ball runAction: [CCRepeatForever actionWithAction: partialRot]];
 	
 	// To make things a bit more appealing, set up a repeating up/down cycle to
 	// change the color of the text from the original red to blue, and back again.
+	
+	/*
 	GLfloat tintTime = 8.0f;
-	ccColor3B startColor = helloTxt.color;
+	ccColor3B startColor = ball.color;
 	ccColor3B endColor = { 50, 0, 200 };
 	CCActionInterval* tintDown = [CCTintTo actionWithDuration: tintTime
 														  red: endColor.r
@@ -172,7 +175,8 @@
 													  green: startColor.g
 													   blue: startColor.b];
 	 CCActionInterval* tintCycle = [CCSequence actionOne: tintDown two: tintUp];
-	[helloTxt runAction: [CCRepeatForever actionWithAction: tintCycle]];
+	[ball runAction: [CCRepeatForever actionWithAction: tintCycle]];
+	*/
 }
 
 /**
